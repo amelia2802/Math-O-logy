@@ -1,0 +1,196 @@
+html,body
+ul,ol,li
+h1,h2,h3
+form,input,div{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    list-style: none;
+    
+}
+header{
+    background-color: yellowgreen;
+    height: 80px;
+    color: white;
+    
+}
+.header-logo{
+    font-size: 40px;
+    float: left;
+    padding: 25px 45px;
+}
+.header-list li{
+    padding: 40px 20px;
+    float: left;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.top-wrapper{
+    padding: 180px 0px 100px 0px;
+    background-image: url("https://st4.depositphotos.com/15248124/23571/i/1600/depositphotos_235719578-stock-photo-colorful-math-fractions-bright-backgrounds.jpg");
+    background-size:cover;
+    text-align: center;
+}
+.top-wrapper h1{
+    opacity: 0.9;
+    font-size: 50px;
+    letter-spacing: normal;
+    margin-bottom: 10px;
+    color: deeppink;
+    text-shadow: palevioletred 3px 2px;
+}
+.top-wrapper p{
+    opacity: 0.9;
+    margin-bottom: 3px;
+    font-size: 20px;
+}
+.btn{
+    padding: 12px 24 px;
+    color: #fff;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    height: 25px;
+}
+.signup{
+    background-color: darkgreen;
+}
+.btn:hover{
+    background-color: cornsilk;
+}
+.instagram{
+    background-color: rgb(202, 118, 33);
+}
+.facebook{
+    background-color: rgb(14, 14, 196);
+}
+.btn-wrapper{
+    margin: 20px 0;
+}
+.btn-wrapper p{
+    margin: 10px 0;
+}
+.fa{
+    margin-right: 5px;
+}
+.lessons{
+    height: 1110px;
+    padding-bottom: 90px ;
+    text-align: center;
+    background-color: ivory;
+}
+.add-Modal-wrapper {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+  .modal {
+    position: absolute;
+    top: 20%;
+    background-color:yellowgreen ;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    width: 450px;
+    height: 50%;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .modal-content span{
+      position: absolute;
+      top: 12px;
+      right: 12px;
+      color: black;
+      cursor: pointer;
+  }
+  .modal-content span:hover{
+    color:white;
+    background-color: slategrey;
+    transition: 0.3s ease-in-out;
+  }
+  .modal-content p{
+      font-size: 30px;
+      color: white;
+  }
+.heading{
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: maroon;
+}
+.heading h3{
+    font-weight: normal;
+    font-size: 50px;
+}
+.item{
+    float: left;
+    width: 50%;
+}
+.item-icon{
+    position: relative;
+}
+.item-icon a{
+    width: 100%;
+    font-size: 30px;
+    float: left;
+}
+input,textarea{
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 20px;
+    font-size: 18px;
+    border: dimgrey 1px solid;
+}
+.btn{
+    color:red;
+}
+.contact-form span{
+    color: red;
+}
+.contact-form h3{
+    padding-top: 30px;
+}
+.contact-submit{
+    background-color: seagreen;
+    color: seashell;
+    display: inline-block;
+}
+footer{
+    background-color: limegreen;
+    color: linen;
+    height: 100px;
+    padding: 20px;
+}
+.footer-logo{
+    font-size: 30px;
+    text-align: initial;
+     
+}
+.footer-list{
+    float: right;
+}
+.footer-list li{
+    padding-bottom: 20px;
+}
+.modal-content input{
+    width: 50px;
+    font-size: 30px;
+}
