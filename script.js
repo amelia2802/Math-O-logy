@@ -1,6 +1,3 @@
-
-let sum=0;
-
 const addition=document.querySelector(".addition");
 const addModal=document.querySelector(".add-Modal-wrapper");
 const closeButton=document.querySelector(".close");
@@ -19,23 +16,10 @@ closeButton.addEventListener("click",()=>{
     closeModal();
 });
 
-btnAdd.addEventListener("click",()=>{
-    addNumbers();
-    updateScreen();
-
-});
 function addNumbers()
 {
-   
-    const val1=parseInt(document.querySelector(".value1").value);
-    const val2=parseInt(document.querySelector(".value2").value); 
-    sum=val1 + val2;
-    console.log(sum);
+    var val1 = parseInt(document.getElementById("value1").value);
+    var val2 = parseInt(document.getElementById("value2").value);
+    var ansD = document.getElementById("answer");
+    ansD.value = val1 + val2;
 }
-const updateScreen=()=>{
-    const ansD=document.querySelector(".answer");
-    ansD.value=sum.toString();
-};
-/*answer.addEventListener("click",()=>{
-    ansD();
-});*/
